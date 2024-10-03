@@ -2,36 +2,62 @@
 <html>
   <head>
        <title>tabla periodica</title>
-       <link rel="stylesheet" href="estiloTabla.css"/>
+       <link rel="stylesheet" href="estiloTabla.css" />
+       <link rel="stylesheet" href="estiloVentana.css" />
+        
   </head>
   <body>
     <div>
-      <!-- Create 7 rows of 19 buttons each -->
-      <table id="button-matrix"  align="center" cellpadding="3" cellspacing="3"  >
+      
+      <table id="button-matrix"  cellpadding="2" cellspacing="2"  >
               <tr>
-                    <td><button>H</button></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td><button>He</button></td>
+                    <td>
+                        <button class="elemento" >
+                              <div class="numero">1</div>
+                              <div class="simbolo">H</div>
+                              <div class="nombre">Hidrógeno</div>
+                        </button>
+                    </td>
+                    <td ></td>
+                    <td ></td>
+                    <td ></td>
+                    <td ></td>
+                    <td ></td>
+                    <td ></td>
+                    <td ></td>
+                    <td ></td>
+                    <td ></td>
+                    <td ></td>
+                    <td ></td>
+                    <td ></td>
+                    <td ></td>
+                    <td ></td>
+                    <td ></td>
+                    <td ></td>
+                    <td>
+                        <button class="elemento" >
+                              <div class="numero">2</div>
+                              <div class="simbolo">He</div>
+                              <div class="nombre">Helio</div>
+                        </button>
+                    </td>
 
               </tr>
               <tr>
-                    <td><button>Button 20</button></td>
-                    <td><button>Button 21</button></td>
+                    <td>
+                        <button class="elemento">
+                              <div class="numero">3</div>
+                              <div class="simbolo">Li</div>
+                              <div class="nombre">Litio</div>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="elemento">
+                              <div class="numero">4</div>
+                              <div class="simbolo">Be</div>
+                              <div class="nombre">Berilio</div>
+                        </button>
+                    </td>
                     <td></td>
                     <td></td>
                     <td></td>
@@ -42,52 +68,247 @@
                     <td></td>
                     <td></td>
                     <td></td>
-                    <td><button>Button 32</button></td>
-                    <td><button>Button 33</button></td>
-                    <td><button>Button 34</button></td>
-                    <td><button>Button 35</button></td>
-                    <td><button>Button 36</button></td>
-                    <td><button>Button 37</button></td>
+                    <td>
+                        <button class="elemento">
+                              <div class="numero">5</div>
+                              <div class="simbolo">B</div>
+                              <div class="nombre">Boro</div>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="elemento">
+                              <div class="numero">6</div>
+                              <div class="simbolo">C</div>
+                              <div class="nombre">Carbono</div>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="elemento">
+                              <div class="numero">7</div>
+                              <div class="simbolo">N</div>
+                              <div class="nombre">Nitrogeno</div>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="elemento">
+                              <div class="numero">8</div>
+                              <div class="simbolo">O</div>
+                              <div class="nombre">Oxigeno</div>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="elemento">
+                              <div class="numero">9</div>
+                              <div class="simbolo">F</div>
+                              <div class="nombre">Fluor</div>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="elemento">
+                              <div class="numero">10</div>
+                              <div class="simbolo">Ne</div>
+                              <div class="nombre">Neon</div>
+                        </button>
+                  </td>
+              </tr>
+              <tr> 
+                  <td>
+                     <button class="elemento">
+                        <div class="numero">11</div>
+                        <div class="simbolo">Na</div>
+                        <div class="nombre">Sodio</div>
+                     </button>
+                  </td>
+                  <td>
+                     <button class="elemento">
+                        <div class="numero">12</div>
+                        <div class="simbolo">Mg</div>
+                        <div class="nombre">Magnesio</div>
+                     </button>
+                  </td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td>
+                     <button class="elemento">
+                        <div class="numero">13</div>
+                        <div class="simbolo">Al</div>
+                        <div class="nombre">Aluminio</div>
+                     </button>
+                  </td>
+                  <td>
+                     <button class="elemento">
+                        <div class="numero">14</div>
+                        <div class="simbolo">Si</div>
+                        <div class="nombre">Silicio</div>
+                     </button>
+                  </td>
+                  <td>
+                     <button class="elemento">
+                        <div class="numero">15</div>
+                        <div class="simbolo">P</div>
+                        <div class="nombre">Neon</div>
+                     </button>
+                  </td>
+                  <td>
+                     <button class="elemento">
+                        <div class="numero">16</div>
+                        <div class="simbolo">S</div>
+                        <div class="nombre">Azufre</div>
+                     </button>
+                  </td>
+                  <td>
+                     <button class="elemento">
+                        <div class="numero">17</div>
+                        <div class="simbolo">Cl</div>
+                        <div class="nombre">Cloro</div>
+                     </button>
+                  </td>
+                  <td>
+                     <button class="elemento">
+                        <div class="numero">18</div>
+                        <div class="simbolo">Ar</div>
+                        <div class="nombre">Argon</div>
+                     </button>
+                  </td>
               </tr>
               <tr>
-                  <td><button>Button 20</button></td>
-                  <td><button>Button 21</button></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td><button>Button 32</button></td>
-                  <td><button>Button 33</button></td>
-                  <td><button>Button 34</button></td>
-                  <td><button>Button 35</button></td>
-                  <td><button>Button 36</button></td>
-                  <td><button>Button 37</button></td>
-              </tr>
-              <tr>
-                    <td><button>Button 55</button></td>
-                    <td><button>Button 56</button></td>
-                    <td><button>Button 57</button></td>
-                    <td><button>Button 58</button></td>
-                    <td><button>Button 59</button></td>
-                    <td><button>Button 60</button></td>
-                    <td><button>Button 61</button></td>
-                    <td><button>Button 62</button></td>
-                    <td><button>Button 63</button></td>
-                    <td><button>Button 64</button></td>
-                    <td><button>Button 65</button></td>
-                    <td><button>Button 66</button></td>
-                    <td><button>Button 67</button></td>
-                    <td><button>Button 68</button></td>
-                    <td><button>Button 65</button></td>
-                    <td><button>Button 66</button></td>
-                    <td><button>Button 67</button></td>
-                    <td><button>Button 68</button></td>
+                  <td>
+                        <button class="elemento">
+                           <div class="numero">19</div>
+                           <div class="simbolo">K</div>
+                           <div class="nombre">Potasio</div>
+                        </button>
+                  </td>
+                  <td>
+                        <button class="elemento">
+                           <div class="numero">20</div>
+                           <div class="simbolo">Ca</div>
+                           <div class="nombre">Calcio</div>
+                        </button>
+                  </td>
+                  <td>
+                        <button class="elemento">
+                           <div class="numero">21</div>
+                           <div class="simbolo">Sc</div>
+                           <div class="nombre">Escandio</div>
+                        </button>
+                  </td>
+                  <td>
+                        <button class="elemento">
+                           <div class="numero">22</div>
+                           <div class="simbolo">Ti</div>
+                           <div class="nombre">Titanio</div>
+                        </button>
+                  </td>
+                  <td>
+                        <button class="elemento">
+                           <div class="numero">23</div>
+                           <div class="simbolo">V</div>
+                           <div class="nombre">Vanadio</div>
+                        </button>
+                  </td>
+                  <td>
+                        <button class="elemento">
+                           <div class="numero">24</div>
+                           <div class="simbolo">Cr</div>
+                           <div class="nombre">Cromo</div>
+                        </button>
+                  </td>
+                  <td>
+                        <button class="elemento">
+                           <div class="numero">25</div>
+                           <div class="simbolo">Mn</div>
+                           <div class="nombre">Manganeso</div>
+                        </button>
+                  </td>
+                  <td>
+                        <button class="elemento">
+                           <div class="numero">26</div>
+                           <div class="simbolo">Fe</div>
+                           <div class="nombre">Hierro</div>
+                        </button>
+                  </td>
+                  <td>
+                        <button class="elemento">
+                           <div class="numero">27</div>
+                           <div class="simbolo">Co</div>
+                           <div class="nombre">Cobalto</div>
+                        </button>
+                  </td>
+                  <td>
+                        <button class="elemento">
+                           <div class="numero">28</div>
+                           <div class="simbolo">Ni</div>
+                           <div class="nombre">Niquel</div>
+                        </button>
+                  </td>
+                  <td>
+                        <button class="elemento">
+                           <div class="numero">29</div>
+                           <div class="simbolo">Cu</div>
+                           <div class="nombre">Cobre</div>
+                        </button>
+                  </td>
+                  <td>
+                        <button class="elemento">
+                           <div class="numero">30</div>
+                           <div class="simbolo">Zn</div>
+                           <div class="nombre">Zinc</div>
+                        </button>
+                  </td>
+                  <td>
+                        <button class="elemento">
+                           <div class="numero">31</div>
+                           <div class="simbolo">Ga</div>
+                           <div class="nombre">Galio</div>
+                        </button>
+                  </td>
+                  <td>
+                        <button class="elemento">
+                           <div class="numero">32</div>
+                           <div class="simbolo">Ge</div>
+                           <div class="nombre">Germanio</div>
+                        </button>
+                  </td>
+                  <td>
+                        <button class="elemento">
+                           <div class="numero">33</div>
+                           <div class="simbolo">As</div>
+                           <div class="nombre">Arsenico</div>
+                        </button>
+                  </td>
+                  <td>
+                        <button class="elemento">
+                           <div class="numero">34</div>
+                           <div class="simbolo">Se</div>
+                           <div class="nombre">Selenio</div>
+                        </button>
+                  </td>
+                  <td>
+                        <button class="elemento">
+                           <div class="numero">35</div>
+                           <div class="simbolo">Br</div>
+                           <div class="nombre">Bromo</div>
+                        </button>
+                  </td>
+                  <td>
+                        <button class="elemento">
+                           <div class="numero">36</div>
+                           <div class="simbolo">Kr</div>
+                           <div class="nombre">Kripton</div>
+                        </button>
+                  </td>
+
+                  
+
               </tr>
               <tr>
                     <td><button>Button 1</button></td>
@@ -109,7 +330,7 @@
                     <td><button>Button 17</button></td>
                     <td><button>Button 18</button></td>
               </tr>
-              <tr>
+              <tr> 
                     <td><button>Button 20</button></td>
                     <td><button>Button 21</button></td>
                     <td><button>Button 22</button></td>
@@ -130,7 +351,7 @@
                     <td><button>Button 37</button></td>
                     
               </tr>
-              <tr>
+              <tr> 
                     <td><button>Button 38</button></td>
                     <td><button>Button 39</button></td>
                     <td><button>Button 40</button></td>
@@ -150,7 +371,7 @@
                     <td><button>Button 54</button></td>
                     <td><button>Button 37</button></td>
               </tr>
-              <tr>
+              <tr> 
                     <td><button>Button 55</button></td>
                     <td><button>Button 56</button></td>
                     <td><button>Button 57</button></td>

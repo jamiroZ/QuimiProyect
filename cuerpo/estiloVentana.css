@@ -1,0 +1,8 @@
+body {
+    background-image: url('imagenes/fondoM.jpg'); /* Cambia la ruta por la de tu imagen */
+    background-size: cover; /* Para que la imagen cubra toda la pantalla */
+    background-repeat: no-repeat; /* Para que la imagen no se repita */
+    background-position: center; /* Para centrar la imagen */
+    height: calc(100vh - 40px); /* Ajusta la altura considerando el margen */
+    margin: 20px; /* Espacio entre el borde de la ventana y el contenido */
+}
